@@ -1,6 +1,8 @@
 import express, { response } from "express"
 import * as fs from "fs"
 
+dotenv.config()
+
 const app = express()
 
 const PORT = process.env.PORT;
