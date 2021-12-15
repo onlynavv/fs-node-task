@@ -3,7 +3,7 @@ import * as fs from "fs"
 
 const app = express()
 
-const PORT = 9000
+const PORT = process.env.PORT;
 
 const timestamp = Date.now()
 const dataInfo = new Date(timestamp)
